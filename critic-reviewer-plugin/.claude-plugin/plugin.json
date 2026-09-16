@@ -1,0 +1,12 @@
+{
+  "name": "critic-reviewer",
+  "displayName": "Critic Reviewer",
+  "version": "1.0.0",
+  "description": "Agente critico-revisor generico: analiza libros, papers cientificos, repositorios de codigo y proyectos, aplicando una rubrica distinta segun el tipo de contenido y sin permisos de escritura.",
+  "author": {
+    "name": "Arturo Soto"
+  },
+  "license": "MIT",
+  "keywords": ["review", "critique", "rubric", "paper", "code-review", "book"],
+  "agents": ["./agents/critic-reviewer.md"]
+}
