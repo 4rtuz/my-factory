@@ -1,0 +1,38 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "my-factory",
+  "description": "Directorio de herramientas de Claude Code para proyectos y repositorios.",
+  "owner": {
+    "name": "MyFactory",
+    "url": "https://github.com/4rtuz/my-factory"
+  },
+  "plugins": [
+    {
+      "name": "critic-reviewer",
+      "source": "./critic-reviewer-plugin",
+      "category": "productivity"
+    },
+    {
+      "name": "threejs-skills",
+      "source": "./threejs-skills",
+      "description": "Skills de Three.js: fundamentos, geometria, materiales, shaders, luces, texturas, animacion, interaccion, loaders y postprocesado.",
+      "category": "development",
+      "strict": false
+    },
+    {
+      "name": "mattpocock-skills",
+      "source": "./tools/mattpocock-skills",
+      "category": "development"
+    },
+    {
+      "name": "ponytail",
+      "source": "./tools/ponytail",
+      "category": "productivity"
+    },
+    {
+      "name": "taste-skill",
+      "source": "./tools/taste-skill",
+      "category": "design"
+    }
+  ]
+}

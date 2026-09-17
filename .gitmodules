@@ -1,0 +1,9 @@
+[submodule "tools/mattpocock-skills"]
+	path = tools/mattpocock-skills
+	url = https://github.com/mattpocock/skills
+[submodule "tools/ponytail"]
+	path = tools/ponytail
+	url = https://github.com/DietrichGebert/ponytail
+[submodule "tools/taste-skill"]
+	path = tools/taste-skill
+	url = https://github.com/Leonxlnx/taste-skill
