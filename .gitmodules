@@ -7,3 +7,6 @@
 [submodule "tools/taste-skill"]
 	path = tools/taste-skill
 	url = https://github.com/Leonxlnx/taste-skill
+[submodule "tools/threejs-skills"]
+	path = tools/threejs-skills
+	url = https://github.com/CloudAI-X/threejs-skills.git

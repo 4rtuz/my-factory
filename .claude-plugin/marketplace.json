@@ -9,12 +9,12 @@
   "plugins": [
     {
       "name": "critic-reviewer",
-      "source": "./critic-reviewer-plugin",
+      "source": "./plugins/critic-reviewer",
       "category": "productivity"
     },
     {
       "name": "threejs-skills",
-      "source": "./threejs-skills",
+      "source": "./tools/threejs-skills",
       "description": "Skills de Three.js: fundamentos, geometria, materiales, shaders, luces, texturas, animacion, interaccion, loaders y postprocesado.",
       "category": "development",
       "strict": false
