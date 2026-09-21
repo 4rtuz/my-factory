@@ -50,6 +50,11 @@
       "description": "Descubre e instala agent skills del registro abierto (npx skills) cuando pides una capacidad que no tienes.",
       "category": "productivity",
       "strict": false
+    },
+    {
+      "name": "feature-sliced-design",
+      "source": "./tools/feature-sliced-design",
+      "category": "development"
     }
   ]
 }

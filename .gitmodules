@@ -16,3 +16,6 @@
 [submodule "tools/fastapi-skill/upstream"]
 	path = tools/fastapi-skill/upstream
 	url = https://github.com/fastapi/fastapi
+[submodule "tools/feature-sliced-design/upstream"]
+	path = tools/feature-sliced-design/upstream
+	url = https://github.com/feature-sliced/skills

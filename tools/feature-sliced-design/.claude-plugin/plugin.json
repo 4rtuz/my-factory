@@ -1,0 +1,13 @@
+{
+  "name": "feature-sliced-design",
+  "displayName": "Feature-Sliced Design",
+  "version": "1.0.0",
+  "description": "Skill oficial de Feature-Sliced Design (FSD v2.1): capas, slices, APIs publicas, limites de import, cross-imports y migracion en proyectos frontend.",
+  "author": {
+    "name": "Feature-Sliced Design",
+    "url": "https://github.com/feature-sliced/skills"
+  },
+  "license": "MIT",
+  "keywords": ["fsd", "frontend", "architecture", "layers", "slices"],
+  "skills": ["./upstream/feature-sliced-design"]
+}
