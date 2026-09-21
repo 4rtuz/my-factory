@@ -42,14 +42,14 @@
     {
       "name": "fastapi-skill",
       "source": "./tools/fastapi-skill",
-      "description": "Skill oficial de FastAPI (vendorizada desde fastapi/fastapi).",
       "category": "development"
     },
     {
       "name": "find-skills",
       "source": "./tools/find-skills",
-      "description": "Descubre e instala agent skills (vendorizada desde vercel-labs/skills).",
-      "category": "productivity"
+      "description": "Descubre e instala agent skills del registro abierto (npx skills) cuando pides una capacidad que no tienes.",
+      "category": "productivity",
+      "strict": false
     }
   ]
 }

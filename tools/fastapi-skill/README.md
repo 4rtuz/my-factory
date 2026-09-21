@@ -1,9 +1,9 @@
 # fastapi-skill
 
-Copia vendorizada de la skill oficial de FastAPI.
+Wrapper del submodulo `upstream` (https://github.com/fastapi/fastapi).
 
-Origen: https://github.com/fastapi/fastapi/tree/master/fastapi/.agents/skills/fastapi
+La skill oficial vive en `upstream/fastapi/.agents/skills/fastapi`, fuera de la ruta
+`skills/` que autodescubre Claude Code, asi que el `plugin.json` de esta carpeta la
+declara explicitamente.
 
-No es un submodulo: el repo de FastAPI es demasiado grande para traerlo entero
-por una sola skill. Para actualizar, vuelve a descargar `SKILL.md` y
-`references/*.md` desde esa ruta.
+Actualizar: `git submodule update --remote tools/fastapi-skill/upstream`

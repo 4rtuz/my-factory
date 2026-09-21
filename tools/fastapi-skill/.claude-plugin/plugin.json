@@ -8,5 +8,6 @@
     "url": "https://github.com/fastapi/fastapi"
   },
   "license": "MIT",
-  "keywords": ["fastapi", "python", "pydantic", "api", "sse"]
+  "keywords": ["fastapi", "python", "pydantic", "api", "sse"],
+  "skills": ["./upstream/fastapi/.agents/skills/fastapi"]
 }

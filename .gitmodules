@@ -10,3 +10,9 @@
 [submodule "tools/threejs-skills"]
 	path = tools/threejs-skills
 	url = https://github.com/CloudAI-X/threejs-skills.git
+[submodule "tools/find-skills"]
+	path = tools/find-skills
+	url = https://github.com/vercel-labs/skills
+[submodule "tools/fastapi-skill/upstream"]
+	path = tools/fastapi-skill/upstream
+	url = https://github.com/fastapi/fastapi
