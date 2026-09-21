@@ -13,6 +13,11 @@
       "category": "productivity"
     },
     {
+      "name": "verification-plan",
+      "source": "./plugins/verification-plan",
+      "category": "development"
+    },
+    {
       "name": "threejs-skills",
       "source": "./tools/threejs-skills",
       "description": "Skills de Three.js: fundamentos, geometria, materiales, shaders, luces, texturas, animacion, interaccion, loaders y postprocesado.",
@@ -33,6 +38,18 @@
       "name": "taste-skill",
       "source": "./tools/taste-skill",
       "category": "design"
+    },
+    {
+      "name": "fastapi-skill",
+      "source": "./tools/fastapi-skill",
+      "description": "Skill oficial de FastAPI (vendorizada desde fastapi/fastapi).",
+      "category": "development"
+    },
+    {
+      "name": "find-skills",
+      "source": "./tools/find-skills",
+      "description": "Descubre e instala agent skills (vendorizada desde vercel-labs/skills).",
+      "category": "productivity"
     }
   ]
 }

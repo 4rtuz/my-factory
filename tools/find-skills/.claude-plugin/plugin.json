@@ -1,0 +1,12 @@
+{
+  "name": "find-skills",
+  "displayName": "Find Skills",
+  "version": "1.0.0",
+  "description": "Descubre e instala agent skills desde el registro abierto (npx skills) cuando el usuario pregunta como hacer algo o busca ampliar capacidades.",
+  "author": {
+    "name": "Vercel Labs",
+    "url": "https://github.com/vercel-labs/skills"
+  },
+  "license": "MIT",
+  "keywords": ["skills", "discovery", "registry", "install"]
+}

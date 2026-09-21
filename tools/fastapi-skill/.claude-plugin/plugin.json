@@ -1,0 +1,12 @@
+{
+  "name": "fastapi-skill",
+  "displayName": "FastAPI",
+  "version": "1.0.0",
+  "description": "Skill oficial de FastAPI: buenas practicas y convenciones para path operations, Pydantic, dependencias, respuestas, streaming/SSE y servir frontends.",
+  "author": {
+    "name": "FastAPI (tiangolo)",
+    "url": "https://github.com/fastapi/fastapi"
+  },
+  "license": "MIT",
+  "keywords": ["fastapi", "python", "pydantic", "api", "sse"]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "verification-plan",
+  "displayName": "Verification Plan",
+  "version": "1.0.0",
+  "description": "Genera un verification.md que recorre las 18 tecnicas de verificacion de codigo y de agentes, clasificadas segun el marco TAIDU del Trust Spec, declarando explicitamente lo que no se verifica como riesgo aceptado.",
+  "author": {
+    "name": "Arturo Soto"
+  },
+  "license": "MIT",
+  "keywords": ["verification", "testing", "static-analysis", "evals", "trust-spec", "assurance"]
+}
