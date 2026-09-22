@@ -55,6 +55,11 @@
       "name": "feature-sliced-design",
       "source": "./tools/feature-sliced-design",
       "category": "development"
+    },
+    {
+      "name": "superpowers",
+      "source": "./tools/superpowers",
+      "category": "development"
     }
   ]
 }

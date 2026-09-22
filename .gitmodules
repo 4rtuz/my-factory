@@ -19,3 +19,6 @@
 [submodule "tools/feature-sliced-design/upstream"]
 	path = tools/feature-sliced-design/upstream
 	url = https://github.com/feature-sliced/skills
+[submodule "tools/superpowers"]
+	path = tools/superpowers
+	url = https://github.com/obra/superpowers
