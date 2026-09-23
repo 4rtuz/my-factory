@@ -1,0 +1,11 @@
+{
+  "name": "auditor-entregable",
+  "version": "0.1.0",
+  "description": "Comando /auditor-entregable:auditar, solo invocable a mano, que audita el repo storyMaker contra los requisitos del examen final de Harness Engineering y, por cada hueco, lanza en segundo plano una sesión de Claude Code con /sdd-spec-writer:sdd hasta que todo lo exigido tiene spec.",
+  "author": {
+    "name": "4rtuz"
+  },
+  "license": "MIT",
+  "keywords": ["auditoria", "entregable", "sdd", "checklist"],
+  "dependencies": ["sdd-spec-writer"]
+}

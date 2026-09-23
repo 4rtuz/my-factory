@@ -28,6 +28,11 @@
       "category": "development"
     },
     {
+      "name": "auditor-entregable",
+      "source": "./plugins/auditor-entregable",
+      "category": "productivity"
+    },
+    {
       "name": "spec-validators",
       "source": "./plugins/spec-validators",
       "category": "development"
