@@ -18,6 +18,11 @@
       "category": "development"
     },
     {
+      "name": "sdd-spec-writer",
+      "source": "./plugins/sdd-spec-writer",
+      "category": "development"
+    },
+    {
       "name": "threejs-skills",
       "source": "./tools/threejs-skills",
       "description": "Skills de Three.js: fundamentos, geometria, materiales, shaders, luces, texturas, animacion, interaccion, loaders y postprocesado.",

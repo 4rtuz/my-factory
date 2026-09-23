@@ -1,0 +1,11 @@
+{
+  "name": "sdd-spec-writer",
+  "displayName": "SDD Spec Writer",
+  "version": "1.0.0",
+  "description": "Comando /spec y subagente spec-writer que generan specs de Spec Driven Development (spec.md + decisions.md en docs/specs/NNNN/) completas, verificables y trazables, coherentes con CLAUDE.md, AGENTS.md y las specs existentes.",
+  "author": {
+    "name": "Arturo Soto"
+  },
+  "license": "MIT",
+  "keywords": ["sdd", "spec", "spec-driven-development", "requirements", "ears", "gherkin"]
+}
