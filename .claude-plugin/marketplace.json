@@ -23,6 +23,16 @@
       "category": "development"
     },
     {
+      "name": "spec-tools",
+      "source": "./plugins/spec-tools",
+      "category": "development"
+    },
+    {
+      "name": "spec-validators",
+      "source": "./plugins/spec-validators",
+      "category": "development"
+    },
+    {
       "name": "threejs-skills",
       "source": "./tools/threejs-skills",
       "description": "Skills de Three.js: fundamentos, geometria, materiales, shaders, luces, texturas, animacion, interaccion, loaders y postprocesado.",

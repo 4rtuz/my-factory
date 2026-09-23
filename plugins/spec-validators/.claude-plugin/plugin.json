@@ -1,0 +1,8 @@
+{
+  "name": "spec-validators",
+  "version": "0.1.0",
+  "description": "Subagente spec-validator que lee una spec de docs/specs/ y su plan de docs/implementation-plans/ y redacta en docs/validators.md los validadores y verificadores de los puntos donde la solución puede fallar.",
+  "author": {
+    "name": "4rtuz"
+  }
+}

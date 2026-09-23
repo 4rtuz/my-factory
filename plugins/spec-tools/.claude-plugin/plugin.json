@@ -1,0 +1,8 @@
+{
+  "name": "spec-tools",
+  "description": "Subagente spec-planner que convierte una spec de docs/specs/ en un plan de implementación trazable en docs/implementation-plans/, analizando el código real del repositorio. Planifica; nunca implementa.",
+  "version": "0.1.0",
+  "author": {
+    "name": "4rtuz"
+  }
+}
