@@ -8,9 +8,10 @@ El plugin trae sus propias plantillas: tú solo escribes la petición.
 
 ```
 sdd-spec-writer/
-├── .claude-plugin/plugin.json          manifiesto
+├── .claude-plugin/plugin.json          manifiesto (depende de spec-tools y spec-validators)
 ├── agents/spec-writer.md               subagente (Read, Glob, Grep, Write; sin Bash ni Edit)
 ├── commands/spec.md                    comando /spec
+├── commands/sdd.md                     comando /sdd (pipeline spec → plan → validadores)
 ├── templates/spec-template.md          plantilla de spec
 └── templates/decisions-template.md     plantilla del registro de decisiones
 ```
@@ -63,6 +64,22 @@ Contexto no encontrado: docs/glosario.md
 ```
 
 La spec se escribe en el idioma de la petición. Si la petición está vacía o no deja claro qué se quiere construir, el agente no genera nada y pide una descripción.
+
+## Pipeline completo: `/sdd`
+
+```
+/sdd <qué quieres construir, aunque sea vago>
+```
+
+Encadena tres subagentes. Cada uno empieza cuando termina el anterior:
+
+1. `sdd-spec-writer:spec-writer` → `docs/specs/NNNN/spec.md` + `decisions.md`
+2. [`spec-tools:spec-planner`](../spec-tools/) → `docs/implementation-plans/NNNN.md`
+3. [`spec-validators:spec-validator`](../spec-validators/) → sección `NNNN` de `docs/validators.md`
+
+Si un paso no genera su fichero, `/sdd` muestra la respuesta de ese subagente y se detiene. Al terminar, confirma que se han diseñado la spec, el plan y los validadores, indica dónde está `decisions.md` (las decisiones que resuelven las preguntas abiertas de la spec) y lista lo que conviene revisar: decisiones con confianza baja, preguntas bloqueantes del plan y requisitos sin cobertura.
+
+`spec-tools` y `spec-validators` se instalan automáticamente como dependencias. Con `--plugin-dir`, carga también sus carpetas.
 
 ## Qué hace el subagente
 
