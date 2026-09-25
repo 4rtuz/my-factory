@@ -38,6 +38,11 @@
       "category": "development"
     },
     {
+      "name": "ci-fixer",
+      "source": "./plugins/ci-fixer",
+      "category": "development"
+    },
+    {
       "name": "threejs-skills",
       "source": "./tools/threejs-skills",
       "description": "Skills de Three.js: fundamentos, geometria, materiales, shaders, luces, texturas, animacion, interaccion, loaders y postprocesado.",

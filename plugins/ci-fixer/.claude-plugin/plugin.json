@@ -1,0 +1,11 @@
+{
+  "name": "ci-fixer",
+  "version": "0.1.0",
+  "description": "Agente ci-fixer que repara de forma autónoma los fallos de CI de GitHub Actions corrigiendo el código de producción, nunca los tests. Hooks de sesión que le entregan el resultado del CI al arrancar, tras cada git push y al intentar terminar; cada fallo pasa por /sdd-spec-writer:sdd (spec, plan y validadores) antes de implementarse.",
+  "author": {
+    "name": "4rtuz"
+  },
+  "license": "MIT",
+  "keywords": ["ci", "github-actions", "autofix", "sdd", "hooks"],
+  "dependencies": ["sdd-spec-writer", "ponytail", "mattpocock-skills"]
+}
